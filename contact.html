@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sethu Muchanga</title>
+    <meta name="description" content="Contact page for Sethu Muchanga's student portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Sethu <span>Muchanga</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="wsu.html">WSU</a>
+            <a href="academic-literacy.html">Academic Literacy</a>
+            <a href="intshayelelo.html">Intshayelelo 101</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <a href="contact.html" class="gradient-btn">Contact Me</a>
+    </header>
+
+    <main class="page-shell">
+        <section class="page-hero">
+            <span class="section-label">Contact Page</span>
+            <h1 class="page-title">Contact <span>Me</span></h1>
+            <p class="page-intro">
+                This page is also clickable. Open either my contact details or the message form.
+            </p>
+        </section>
+
+        <section class="explorer">
+            <div class="section-heading-wrap" id="contact-menu">
+                <span class="section-label">Click To View</span>
+                <h2 class="section-heading">Open a <span>Contact</span> section.</h2>
+                <p class="section-intro">Choose whether you want to see my contact links or the full message form.</p>
+            </div>
+
+            <div class="menu-grid">
+                <button type="button" class="menu-card" data-panel-target="contact-details">
+                    <span class="card-kicker">Details</span>
+                    <h3>Contact Options</h3>
+                    <p>Open my email, WhatsApp, and Instagram details.</p>
+                </button>
+                <button type="button" class="menu-card" data-panel-target="contact-form-panel">
+                    <span class="card-kicker">Form</span>
+                    <h3>Send a Message</h3>
+                    <p>Open the contact form and send me a direct message.</p>
+                </button>
+            </div>
+
+            <article class="detail-panel" id="contact-details">
+                <div class="panel-heading">
+                    <h3>Contact Options</h3>
+                    <button type="button" class="back-btn" data-back-to="contact-menu">Back to Menu</button>
+                </div>
+                <div class="contact-card">
+                    <p>Feel free to contact me for student opportunities, collaboration, or professional connection.</p>
+                    <div class="contact-links">
+                        <a href="mailto:sthmuchanga@gmail.com">
+                            <i class="bx bx-envelope"></i>
+                            <div>
+                                <span>Email</span>
+                                <strong>sthmuchanga@gmail.com</strong>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/27731771734?text=Hi%20Sethu%2C%20I%20would%20like%20to%20connect%20with%20you." target="_blank" rel="noopener noreferrer">
+                            <i class="bx bxl-whatsapp"></i>
+                            <div>
+                                <span>WhatsApp</span>
+                                <strong>0731771734</strong>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/seth_u825/" target="_blank" rel="noopener noreferrer">
+                            <i class="bx bxl-instagram"></i>
+                            <div>
+                                <span>Instagram</span>
+                                <strong>@seth_u825</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="detail-panel" id="contact-form-panel">
+                <div class="panel-heading">
+                    <h3>Send a Message</h3>
+                    <button type="button" class="back-btn" data-back-to="contact-menu">Back to Menu</button>
+                </div>
+                <div class="form-card">
+                    <p>Use the form below to send a message directly.</p>
+                    <form action="https://formsubmit.co/sthmuchanga@gmail.com" method="POST" class="contact-form">
+                        <input type="hidden" name="_subject" value="New message from Sethu Muchanga Portfolio">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+
+                        <div class="input-row">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="input-row">
+                            <input type="tel" name="phone" placeholder="Phone Number">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://wa.me/27731771734?text=Hi%20Sethu%2C%20I%20viewed%20your%20portfolio%20and%20wanted%20to%20connect." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Sethu Muchanga"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.instagram.com/seth_u825/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile for Sethu Muchanga"><i class="bx bxl-instagram"></i></a>
+            <a href="mailto:sthmuchanga@gmail.com" aria-label="Email Sethu Muchanga"><i class="bx bx-envelope"></i></a>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="wsu.html">WSU</a></li>
+            <li><a href="academic-literacy.html">Academic Literacy</a></li>
+            <li><a href="intshayelelo.html">Intshayelelo 101</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; <span id="year"></span> Sethu Muchanga. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

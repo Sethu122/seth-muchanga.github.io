@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Sethu Muchanga</title>
+    <meta name="description" content="About Sethu Muchanga and his journey as an aspiring analyst.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Sethu <span>Muchanga</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="wsu.html">WSU</a>
+            <a href="academic-literacy.html">Academic Literacy</a>
+            <a href="intshayelelo.html">Intshayelelo 101</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="gradient-btn">Contact Me</a>
+    </header>
+
+    <main class="page-shell">
+        <section class="subhero">
+            <div class="subhero-copy">
+                <span class="section-label">About Page</span>
+                <h1 class="page-title">About <span>Me</span></h1>
+                <p class="page-intro">
+                    This page introduces who I am, how I think, and the values and skills
+                    that I am developing as an Analytical Chemistry student and aspiring analyst.
+                </p>
+            </div>
+
+            <div class="media-stage">
+                <div class="media-frame parallax-layer" data-parallax="-0.03">
+                    <img src="about-photo.jpg" alt="Sethu Muchanga beside flowers">
+                </div>
+            </div>
+        </section>
+
+        <section class="explorer">
+            <div class="section-heading-wrap" id="about-menu">
+                <span class="section-label">Click To View</span>
+                <h2 class="section-heading">Open an <span>About Me</span> section.</h2>
+                <p class="section-intro">
+                    Click one of the cards below to reveal the information, then use the back button
+                    inside the section to return here.
+                </p>
+            </div>
+
+            <div class="menu-grid">
+                <button type="button" class="menu-card" data-panel-target="about-background">
+                    <span class="card-kicker">Profile</span>
+                    <h3>My Background</h3>
+                    <p>Open my personal introduction and academic journey.</p>
+                </button>
+                <button type="button" class="menu-card" data-panel-target="about-strengths">
+                    <span class="card-kicker">Strengths</span>
+                    <h3>Analytical Strengths</h3>
+                    <p>View the qualities and skills I am building through my studies.</p>
+                </button>
+                <button type="button" class="menu-card" data-panel-target="about-goals">
+                    <span class="card-kicker">Future</span>
+                    <h3>Career Goals</h3>
+                    <p>Open my motivation and the direction I want to grow into.</p>
+                </button>
+            </div>
+
+            <article class="detail-panel" id="about-background">
+                <div class="panel-heading">
+                    <h3>My Background</h3>
+                    <button type="button" class="back-btn" data-back-to="about-menu">Back to Menu</button>
+                </div>
+                <div class="panel-layout">
+                    <div class="panel-media">
+                        <img src="about-background-photo.jpg" alt="Portrait of Sethu Muchanga for My Background">
+                    </div>
+                    <div class="panel-copy">
+                        <p>
+                            My name is Sethu Muchanga. I am a first-year student at Walter Sisulu University
+                            studying for a Diploma in Analytical Chemistry. I am self-dedicated, curious, and
+                            determined to grow into a person who can solve problems with logic, patience, and clarity.
+                        </p>
+                        <p>
+                            My academic journey is shaping me into an aspiring analyst because it teaches me how to
+                            collect information, observe carefully, work systematically, and communicate findings in
+                            a meaningful and structured way.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="detail-panel" id="about-strengths">
+                <div class="panel-heading">
+                    <h3>Analytical Strengths</h3>
+                    <button type="button" class="back-btn" data-back-to="about-menu">Back to Menu</button>
+                </div>
+                <div class="panel-copy">
+                    <p>
+                        My studies have strengthened my ability to work with accuracy, follow methodical processes,
+                        and interpret results with care. These are all important foundations for analytical work.
+                    </p>
+                    <ul class="detail-list">
+                        <li>I can approach problems logically and step by step.</li>
+                        <li>I am developing confidence in collecting, reviewing, and interpreting data.</li>
+                        <li>I communicate information through written reports and clear explanations.</li>
+                        <li>I value consistency, evidence, and attention to detail.</li>
+                        <li>I am comfortable learning new tools and improving my methods over time.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="detail-panel" id="about-goals">
+                <div class="panel-heading">
+                    <h3>Career Goals</h3>
+                    <button type="button" class="back-btn" data-back-to="about-menu">Back to Menu</button>
+                </div>
+                <div class="panel-layout">
+                    <div class="panel-media">
+                        <img src="career-goals-photo.jpg" alt="Sethu Muchanga for Career Goals">
+                    </div>
+                    <div class="panel-copy">
+                        <p>
+                            My goal is to grow into a competent analyst who can turn information into insight and use
+                            structured thinking to help solve real-world problems. I want to keep learning, improve my
+                            research and communication abilities, and become more confident in digital and analytical tools.
+                        </p>
+                        <p>
+                            This portfolio represents a starting point in that journey. It shows my willingness to learn,
+                            my professional mindset, and the way I am preparing for future opportunities.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://wa.me/27731771734?text=Hi%20Sethu%2C%20I%20viewed%20your%20portfolio%20and%20wanted%20to%20connect." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Sethu Muchanga"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.instagram.com/seth_u825/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile for Sethu Muchanga"><i class="bx bxl-instagram"></i></a>
+            <a href="mailto:sthmuchanga@gmail.com" aria-label="Email Sethu Muchanga"><i class="bx bx-envelope"></i></a>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="wsu.html">WSU</a></li>
+            <li><a href="academic-literacy.html">Academic Literacy</a></li>
+            <li><a href="intshayelelo.html">Intshayelelo 101</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; <span id="year"></span> Sethu Muchanga. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

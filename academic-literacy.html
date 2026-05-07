@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Literacy | Sethu Muchanga</title>
+    <meta name="description" content="Academic literacy and financial planning page for Sethu Muchanga.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Sethu <span>Muchanga</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="wsu.html">WSU</a>
+            <a href="academic-literacy.html" class="active">Academic Literacy</a>
+            <a href="intshayelelo.html">Intshayelelo 101</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="gradient-btn">Contact Me</a>
+    </header>
+
+    <main class="page-shell">
+        <section class="subhero">
+            <div class="subhero-copy">
+                <span class="section-label">Academic Page</span>
+                <h1 class="page-title">Academic <span>Literacy</span></h1>
+                <p class="page-intro">
+                    This page focuses on my academic literacy, communication, critical thinking,
+                    and practical financial planning as a student.
+                </p>
+            </div>
+            <div class="media-stage">
+                <div class="media-frame parallax-layer panel-media--contain" data-parallax="-0.03">
+                    <img src="literacy-cover.webp" alt="Academic literacy book cover">
+                </div>
+            </div>
+        </section>
+
+        <section class="explorer">
+            <div class="section-heading-wrap" id="literacy-menu">
+                <span class="section-label">Click To View</span>
+                <h2 class="section-heading">Open an <span>Academic Literacy</span> section.</h2>
+                <p class="section-intro">Every Academic Literacy section is clickable and opens separately.</p>
+            </div>
+
+            <div class="menu-grid">
+                <button type="button" class="menu-card" data-panel-target="literacy-overview">
+                    <span class="card-kicker">Skills</span>
+                    <h3>Literacy Overview</h3>
+                    <p>Open the main explanation of how I engage with academic material.</p>
+                </button>
+                <button type="button" class="menu-card" data-panel-target="literacy-strengths">
+                    <span class="card-kicker">Growth</span>
+                    <h3>Core Strengths</h3>
+                    <p>View the strengths I am building through academic writing and analysis.</p>
+                </button>
+                <button type="button" class="menu-card" data-panel-target="literacy-budget">
+                    <span class="card-kicker">Budget</span>
+                    <h3>Monthly Budget Plan</h3>
+                    <p>Open the full NSFAS-based budget section.</p>
+                </button>
+                <button type="button" class="menu-card" data-panel-target="literacy-breakdown">
+                    <span class="card-kicker">Spending</span>
+                    <h3>Food Breakdown</h3>
+                    <p>View the planned breakdown for groceries and essentials.</p>
+                </button>
+            </div>
+
+            <article class="detail-panel" id="literacy-overview">
+                <div class="panel-heading">
+                    <h3>Literacy Overview</h3>
+                    <button type="button" class="back-btn" data-back-to="literacy-menu">Back to Menu</button>
+                </div>
+                <div class="panel-layout">
+                    <div class="panel-media panel-media--contain">
+                        <img src="literacy-cover.webp" alt="Academic literacy book cover illustration">
+                    </div>
+                    <div class="panel-copy">
+                        <p>
+                            Academic literacy reflects my ability to engage with academic and technical material
+                            in a meaningful, disciplined, and structured way. Through Analytical Chemistry, I have
+                            learned how to read scientific texts, laboratory manuals, and academic resources with
+                            understanding and precision.
+                        </p>
+                        <p>
+                            These experiences help me identify important concepts, follow complex instructions,
+                            and communicate clearly through well-organised academic writing.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="detail-panel" id="literacy-strengths">
+                <div class="panel-heading">
+                    <h3>Core Strengths</h3>
+                    <button type="button" class="back-btn" data-back-to="literacy-menu">Back to Menu</button>
+                </div>
+                <div class="panel-copy">
+                    <ul class="detail-list">
+                        <li>Structured academic writing through reports, assignments, and analytical tasks</li>
+                        <li>Clear explanation of methods, results, and conclusions</li>
+                        <li>Critical thinking and evidence-based reasoning</li>
+                        <li>Improved attention to detail and professional communication</li>
+                        <li>Growing confidence in reading, interpreting, and presenting information</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="detail-panel" id="literacy-budget">
+                <div class="panel-heading">
+                    <h3>Monthly Budget Plan</h3>
+                    <button type="button" class="back-btn" data-back-to="literacy-menu">Back to Menu</button>
+                </div>
+                <div class="panel-copy">
+                    <p>
+                        Monthly budget plan based on NSFAS support: <strong>R1,716</strong>.
+                        I divide this into savings and groceries so that I can manage my month more responsibly.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Savings: R300 for emergencies, transport shortages, and end-of-month backup</li>
+                        <li>Groceries: R1,416 for weekly food management</li>
+                        <li>Weekly grocery target: around R354 per week</li>
+                    </ul>
+                    <table class="budget-table">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Savings</td>
+                                <td>R300</td>
+                            </tr>
+                            <tr>
+                                <td>Groceries</td>
+                                <td>R1,416</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>R1,716</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article class="detail-panel" id="literacy-breakdown">
+                <div class="panel-heading">
+                    <h3>Food Breakdown</h3>
+                    <button type="button" class="back-btn" data-back-to="literacy-menu">Back to Menu</button>
+                </div>
+                <div class="panel-copy">
+                    <ul class="detail-list">
+                        <li>Staples - About R600: maize meal or rice, bread, cooking oil, sugar, salt, and spices</li>
+                        <li>Proteins - About R400: eggs, chicken portions, tinned fish, beans, or lentils</li>
+                        <li>Fresh Foods - About R300: onions, potatoes, cabbage, carrots, bananas, or apples</li>
+                        <li>Extras and Buffer - About R116: milk, tea or coffee, and small treats in moderation</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://wa.me/27731771734?text=Hi%20Sethu%2C%20I%20viewed%20your%20portfolio%20and%20wanted%20to%20connect." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Sethu Muchanga"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.instagram.com/seth_u825/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile for Sethu Muchanga"><i class="bx bxl-instagram"></i></a>
+            <a href="mailto:sthmuchanga@gmail.com" aria-label="Email Sethu Muchanga"><i class="bx bx-envelope"></i></a>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="wsu.html">WSU</a></li>
+            <li><a href="academic-literacy.html">Academic Literacy</a></li>
+            <li><a href="intshayelelo.html">Intshayelelo 101</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; <span id="year"></span> Sethu Muchanga. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
